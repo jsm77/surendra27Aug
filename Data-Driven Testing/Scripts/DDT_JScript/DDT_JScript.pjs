@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{B43358D7-AD24-4732-AB4B-7D1A01EB9FA8}">
+	<children>
+		<child name="DDT_JScript" key="{5EF54B54-E8EC-4D5C-A057-4F5DB360D41B}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="DDT_JScript.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{E45C98A4-7377-4E87-898E-229B7F62E910}">
+		<children>
+			<testItem key="{5EF54B54-E8EC-4D5C-A057-4F5DB360D41B}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{B6DC08C1-72FE-4205-9CCD-756B4404A95D}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{64157DCB-CBD6-45E8-8217-27F37295186D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

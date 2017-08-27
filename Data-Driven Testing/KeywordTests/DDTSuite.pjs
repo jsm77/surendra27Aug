@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="12.0" key="{C2ADC527-EB2A-4979-B87A-B50A7D39B9CC}">
+	<children>
+		<child name="DDTProject" key="{C0C6462C-5806-4BBD-99C1-E3D3F6278D89}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
+			<data path="DDTProject\DDTProject.mds" />
+		</child>
+	</children>
+	<folders />
+	<testItems key="{CEB9BE9E-12B2-492D-AD12-EF6A611BA675}">
+		<children>
+			<testItem key="{C0C6462C-5806-4BBD-99C1-E3D3F6278D89}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{8CAC24A3-97BA-4522-8F18-C66336F77ACE}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{DFCBD6D4-36B3-4917-A241-FB9F2B299134}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

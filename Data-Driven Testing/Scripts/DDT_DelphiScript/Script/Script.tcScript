@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="DelphiScript" key="{E7F5D71F-EEED-4C37-B43F-1EC4AC32DA06}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="DelphiScript.sd" />
+		</child>
+	</children>
+	<folders />
+</Root>

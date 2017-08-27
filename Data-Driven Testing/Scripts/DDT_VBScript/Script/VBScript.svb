@@ -1,0 +1,80 @@
+﻿'
+'   This sample demonstrates how to use the Data-Driven Testing plug-in 
+'   and how to create data-driven tests.
+'   The application form is populated several times with data extracted from the 
+'   <TestComplete Samples>\Common\Data-Driven Testing\TestBook.xlsx Excel file.
+'   
+'    The script loads the Orders.exe application from the
+'   <TestComplete Samples>\Desktop\Orders\C#\bin\Release\ folder.
+'   
+'    Requirements:
+'      Microsoft Excel 2007 must be installed on your computer.
+'      Data-Driven Testing plug-in must be installed in TestComplete.    
+    
+
+Sub OpenForm(mainForm)
+  Call mainForm.MainMenu.Click("Orders|New order...")
+End Sub
+
+Sub PopulateForm(groupBox,Driver)
+  Dim numericUpDown, textBox 
+
+  Call groupBox.ProductNames.ClickItem(Driver.Value(1))
+  Set numericUpDown = groupBox.Quantity
+  Call numericUpDown.Click(37, 9)
+  numericUpDown.wValue = Driver.Value(2)
+  groupBox.Date.wDate = Driver.Value(3)
+  Set textBox = groupBox.Customer
+  Call textBox.Click(39, 7)
+  textBox.wText = Driver.Value(0)
+  Set textBox = groupBox.Street
+  Call textBox.Click(66, 7)
+  textBox.wText = Driver.Value(4)
+  Set textBox = groupBox.City
+  Call textBox.Click(72, 9)
+  textBox.wText = Driver.Value(5)
+  Set textBox = groupBox.State
+  Call textBox.Click(98, 9)
+  textBox.wText = Driver.Value(6)
+  Set textBox = groupBox.Zip
+  Call textBox.Click(31, 12)
+  textBox.wText = Driver.Value(7)
+  groupBox.WinFormsObject(Driver.Value(8)).ClickButton
+  Set textBox = groupBox.CardNo
+  Call textBox.Click(53, 12)
+  textBox.wText = Driver.Value(9)
+  groupBox.ExpDate.wDate = Driver.Value(10)
+End Sub
+
+Sub Checkpoint(Driver)
+  Call aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Price, "wText", cmpEqual, Driver.Value(11), False)
+  Call aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.Discount, "wText", cmpEqual, Driver.Value(12) , False)
+  Call aqObject.CheckProperty(Aliases.Orders.OrderForm.Group.groupBox1.Total, "wText", cmpEqual, Driver.Value(13), False)
+End Sub
+
+Sub CloseForm(orderForm)
+ orderForm.ButtonOK.ClickButton
+End Sub
+
+Sub CloseApplication(orders, mainForm) 
+  mainForm.Close
+  orders.dlgConfirmation.btnNo.ClickButton
+End Sub
+
+Sub Main
+  Dim orders, mainForm, orderForm, groupBox
+  Set Driver = DDT.ExcelDriver("../../TestBook.xlsx", "TestSheet", True)
+  TestedApps.RunAll 
+  Set orders = Aliases.Orders
+  Set mainForm = orders.MainForm
+  While Not Driver.EOF
+    Call OpenForm(mainForm)
+    Set orderForm = orders.OrderForm
+    Set groupBox = orderForm.Group
+    Call PopulateForm(groupBox, Driver)
+    Call Checkpoint(Driver)
+    Call CloseForm(orderForm)
+    Driver.Next
+  Wend
+  Call CloseApplication(orders, mainForm)
+End Sub
