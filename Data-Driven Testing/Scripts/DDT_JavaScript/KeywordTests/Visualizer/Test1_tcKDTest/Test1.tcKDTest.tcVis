@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{48AA9A20-732E-49CF-A59A-BB078BB2C1D8}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="42976.6836805556" objectName="Aliases.browser.pageAccountsGoogleComSigninV2Ide.form.emailinputIdentifierid" objectLeft="486" objectTop="363" objectRight="856" objectBottom="387" clickPointX="-1" clickPointY="-1" imageFileName="tcvi217451377405.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="42976.6837731481" objectName="Aliases.browser.pageAccountsGoogleComSigninV2Ide.form.panel.panel.panel.panel.panelIdentifiernext.textnode" objectLeft="794" objectTop="480" objectRight="829" objectBottom="500" clickPointX="817" clickPointY="482" imageFileName="tcvi2182921774010.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="42976.6838425926" objectName="Aliases.browser.pageAccountsGoogleComSigninV2SlP.form.passwordboxPassword" objectLeft="486" objectTop="363" objectRight="856" objectBottom="387" clickPointX="-1" clickPointY="-1" imageFileName="tcvi2188319774012.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="42976.6839236111" objectName="Aliases.browser.pageAccountsGoogleComSigninV2SlP.form.panelPasswordnext.textnode" objectLeft="794" objectTop="446" objectRight="829" objectBottom="466" clickPointX="814" clickPointY="454" imageFileName="tcvi2195526774016.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

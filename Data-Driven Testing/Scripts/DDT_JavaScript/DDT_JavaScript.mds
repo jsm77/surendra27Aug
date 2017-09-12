@@ -10,8 +10,23 @@
 		<child name="TestedApps" key="{76CAC4C5-CF9A-46FE-85D8-BBB75E4C3D6D}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="">
 			<data path="TestedApps\TestedApps.tcTAs" />
 		</child>
+		<child name="KeywordTests" key="{2D31FE0F-49B6-45A4-8CB9-970FACB26661}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing">
+			<data path="KeywordTests\KeywordTests.tcKDT" />
+		</child>
+		<child name="WebServices" key="{10C6C549-A2F0-4C88-AC0D-FEB6FF6E9896}" type="Web Services" typeId="{B80B4499-CFD0-49B8-A39C-3264E9ED9080}" pluginName="Web Service Support">
+			<data path="WebServices\WebServices.tcWSs" />
+		</child>
+		<child name="Stores" key="{A0BFD12F-9AF1-459D-B910-896A54ECBBFF}" type="Stores" typeId="{5238AF17-5FE2-48FF-8BCC-9803A975A4F4}" pluginName="Stores">
+			<data path="Stores\Stores.tcStores" />
+		</child>
 	</children>
-	<folders />
+	<folders>
+		<folder caption="Advanced" description="A logical folder that is used to organize project items and elements." moniker="{69583268-92F3-49FA-B573-C831F5ABC27B}">
+			<references>
+				<ref key="{10C6C549-A2F0-4C88-AC0D-FEB6FF6E9896}" />
+			</references>
+		</folder>
+	</folders>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{A667D3DA-6AC4-4061-962C-3C1D4B66EEEE}">
 		<children>
@@ -25,7 +40,7 @@
 		<data Version="3" />
 	</variables>
 	<settings key="{1A068910-B73E-4E8F-8130-AA144083D2D3}">
-		<settingsVersion value="11.40" />
+		<settingsVersion value="12.31" />
 		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="6" colIndex="2">
 			<columns>
 				<column type="1" enabled="True" />
@@ -96,8 +111,7 @@
 			</columns>
 			<data>
 				<row val0="Off" />
-				<row val0="Capture images only" />
-				<row val0="Capture images and test object info" />
+				<row val0="Capture images" />
 			</data>
 		</setting>
 		<setting name="{95E3327A-7433-4A00-9257-6E9A4B4F1795}" type="6" rowIndex="0" colIndex="0">
@@ -119,6 +133,7 @@
 			</data>
 		</setting>
 		<setting name="{0DEF6033-13D4-4335-97E9-CC6F1FC04342}" type="1" value="True" />
+		<setting name="{DF56DCEA-130B-4D36-8893-5FDC090AFB17}" type="1" value="False" />
 		<setting name="{829BC6CA-56D1-46A4-89B9-E15802964005}" type="1" value="False" />
 		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="0">
 			<columns>
@@ -181,6 +196,7 @@
 			</columns>
 			<data />
 		</setting>
+		<setting name="{AF49D9D4-83CD-4BEA-BF27-8D70D88AC840}" type="1" value="False" />
 		<setting name="RunStandaloneServer" type="1" value="False" />
 		<setting name="{6BE019A2-A836-4B31-84D9-F9DE78869D51}" type="6" rowIndex="0" colIndex="0">
 			<columns>
@@ -209,7 +225,6 @@
 		</setting>
 		<setting name="{3FC2A7B4-F4AF-4807-8D37-C3EE096DD330}" type="2" value="1024" />
 		<setting name="{9EB8E8E6-D2F2-4A8A-ADFB-492E8C0EAFEF}" type="2" value="10000" />
-		<setting name="{1DB8307D-FA4B-43E7-8E11-9F8F41ABD7E9}" type="1" value="True" />
 		<setting name="{47A56F4F-F2D3-4697-BEC8-632B29D5A344}" type="6" rowIndex="7" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
@@ -226,6 +241,7 @@
 				<row val0="True" val1="MacromediaFlashPlayerActiveX" />
 			</data>
 		</setting>
+		<setting name="{1DB8307D-FA4B-43E7-8E11-9F8F41ABD7E9}" type="1" value="True" />
 		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="-1" colIndex="1">
 			<columns>
 				<column type="1" enabled="True" />
@@ -334,6 +350,7 @@
 				<row val0="Breadth-first" />
 			</data>
 		</setting>
+		<setting name="{24DB98D6-5EF8-47BF-977E-C2FD2C5F5FB3}" type="5" value="Log" />
 		<setting name="{3BAA9083-AE46-48CE-BFF4-A656DECF8E2F}" type="1" value="False" />
 		<setting name="{3E8BAA4F-EA09-4DD1-BD8E-DA765C8CF39B}" type="1" value="True" />
 		<setting name="{BE6D588C-BDC7-42E0-8BAE-3E3D8B0F7E83}" type="1" value="True" />
@@ -358,6 +375,7 @@
 			</data>
 		</setting>
 		<setting name="StandaloneServerPort" type="2" value="4444" />
+		<setting name="{40B91E08-D498-460E-B175-0E9FB75CB271}" type="1" value="True" />
 		<setting name="{BF9B6482-CEA1-4402-BA61-9702404F1F12}" type="1" value="True" />
 		<setting name="{C3267834-69E4-4CD8-B16A-B60A9BB8A3B4}" type="1" value="False" />
 		<setting name="{1398B0BE-92B7-4650-A467-751B8FAAB738}" type="6" rowIndex="0" colIndex="0">
@@ -436,6 +454,7 @@
 		<setting name="KeyPressingDelay" type="2" value="0" />
 		<setting name="{5B70169C-3929-4B5F-BC46-0FD984BECF45}" type="1" value="False" />
 		<setting name="{AE3F26D8-A5BD-4172-9F50-F2B9D1D03611}" type="1" value="True" />
+		<setting name="{7A29E7FF-985C-4095-9EEC-261B86F6AB0F}" type="1" value="True" />
 		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -473,8 +492,7 @@
 			</columns>
 			<data>
 				<row val0="Off" />
-				<row val0="Capture images only" />
-				<row val0="Capture images and test object info" />
+				<row val0="Capture images" />
 			</data>
 		</setting>
 		<setting name="{BC2725AB-C90D-4761-BEB2-ABACE30FE554}" type="1" value="True" />

@@ -20,7 +20,107 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42974.5210308796"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{18A5DCE4-53C0-42FF-AA3E-186D5C3216E1}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [TestCommit\AddingaFunction]"/>
+				<Prp name="relpath" type="S" value="8_27_2017_12_30 PM_17_68\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9692923148"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{74320AB9-B40A-441B-9496-F3624BA935AA}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_15 PM_46_866\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9696666435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2C25703D-686C-40E0-B5D0-DD6AAE2A99D1}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_16 PM_19_198\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9730935185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{90416F09-26B5-4A71-92F5-96C8882F1154}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_21 PM_15_280\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9734724306"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{56FCCB21-021B-4102-A615-940D0AE1355A}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_21 PM_48_18\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9781600694"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2FD88DDF-75C3-48DB-B6ED-20E3ED363539}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_28 PM_33_30\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9866878356"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{99B5F0F7-2C5E-49F7-AAB3-43DF041A60D9}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_40 PM_49_829\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42975.9873578704"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{85BDC239-C58F-471E-ACC2-6BA9BB9CAC2D}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Login_Gmail]"/>
+				<Prp name="relpath" type="S" value="8_28_2017_11_41 PM_47_720\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42976.9088255208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{31D1902C-1282-4409-93AC-623B76475C07}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [VerifyGmailLogin]"/>
+				<Prp name="relpath" type="S" value="8_29_2017_9_48 PM_42_525\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42976.9110905208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3E2FD627-25B5-4C5B-9613-6751888E2961}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [VerifyGmailLogin]"/>
+				<Prp name="relpath" type="S" value="8_29_2017_9_51 PM_58_221\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42976.9319555208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F8EF1D3A-3517-4701-9C10-1BC1D6288CE3}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [VerifyGmailLogin]"/>
+				<Prp name="relpath" type="S" value="8_29_2017_10_22 PM_00_957\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

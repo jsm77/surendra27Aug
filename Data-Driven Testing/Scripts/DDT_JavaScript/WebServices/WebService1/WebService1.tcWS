@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{FDE830DE-DB45-4B3F-9158-5C1FB0B40C28}" version="12.0">
+	<data>
+		<xmlSchema>
+			<type guid="{E7B6965F-89FB-4A78-AE2B-34145DF9E526}" complexType="True" anonymous="True" name="GetSampleObjectSoapOut_GetSampleObjectResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="GetSampleObjectResult" namespace="http://smartbear.com" form="0" type="SampleTestClass{6AAA2F70-2A6A-439F-A137-EF9554FC39AE}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="GetSampleObjectResult" />
+							<attribute name="type" namespace="" value="tns:SampleTestClass" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{C6CE0C05-1A96-419B-ACC5-946F4923BD55}" complexType="True" anonymous="True" name="SetSampleObjectSoapIn_SetSampleObject" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="obj" namespace="http://smartbear.com" form="0" type="SampleTestClass{6AAA2F70-2A6A-439F-A137-EF9554FC39AE}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="obj" />
+							<attribute name="type" namespace="" value="tns:SampleTestClass" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{6AAA2F70-2A6A-439F-A137-EF9554FC39AE}" complexType="True" name="SampleTestClass" targetNamespace="http://smartbear.com">
+				<nonSchemaAttributes>
+					<attribute name="name" namespace="" value="SampleTestClass" />
+				</nonSchemaAttributes>
+				<rootCompositor itemType="0">
+					<element name="X" namespace="http://smartbear.com" form="0" type="double{521FA3B6-BE2C-4127-96BA-84FB23C9FC47}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="1" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="X" />
+							<attribute name="type" namespace="" value="s:double" />
+						</nonSchemaAttributes>
+					</element>
+					<element name="Y" namespace="http://smartbear.com" form="0" type="double{521FA3B6-BE2C-4127-96BA-84FB23C9FC47}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="1" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="Y" />
+							<attribute name="type" namespace="" value="s:double" />
+						</nonSchemaAttributes>
+					</element>
+					<element minOccurs="0" name="Name" namespace="http://smartbear.com" form="0" type="string{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="Name" />
+							<attribute name="type" namespace="" value="s:string" />
+						</nonSchemaAttributes>
+					</element>
+					<element minOccurs="0" name="IntArray" namespace="http://smartbear.com" form="0" type="ArrayOfInt{A0FED76B-A041-44DD-B351-058DD94AEEF4}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="IntArray" />
+							<attribute name="type" namespace="" value="tns:ArrayOfInt" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{5619F500-2A04-4377-9FFF-6CFD62F44081}" complexType="True" anonymous="True" name="GetArraySoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetArray" namespace="http://smartbear.com" form="0" type="GetArraySoapIn_GetArray{CD4F13B2-F68B-498A-8237-4CD12B1574AB}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{B28B31D4-2002-4042-A588-661B4774E70B}" complexType="True" anonymous="True" name="SetSampleObjectSoapOut_SetSampleObjectResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="SetSampleObjectResult" namespace="http://smartbear.com" form="0" type="string{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="SetSampleObjectResult" />
+							<attribute name="type" namespace="" value="s:string" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{BC6FB392-5823-4B47-9BB1-8AAE79ECB015}" complexType="True" anonymous="True" name="GetXmlDataSoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetXmlData" namespace="http://smartbear.com" form="0" type="GetXmlDataSoapIn_GetXmlData{61A224FF-A18D-4828-A091-498D7D454FA0}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{A7332BFA-5A08-421D-91A8-914FD1F4DDBB}" complexType="True" anonymous="True" name="HelloWorldSoapIn_HelloWorld" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0" />
+			</type>
+			<type guid="{E0779FE4-8BB8-4827-B083-E258F870E357}" complexType="True" anonymous="True" name="GetCurrentTimeSoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetCurrentTime" namespace="http://smartbear.com" form="0" type="GetCurrentTimeSoapIn_GetCurrentTime{1145AFE7-432E-4EF7-A231-D71E6B6E83B8}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{A0FED76B-A041-44DD-B351-058DD94AEEF4}" complexType="True" name="ArrayOfInt" targetNamespace="http://smartbear.com">
+				<nonSchemaAttributes>
+					<attribute name="name" namespace="" value="ArrayOfInt" />
+				</nonSchemaAttributes>
+				<rootCompositor itemType="0">
+					<element unbounded="True" minOccurs="0" name="int" namespace="http://smartbear.com" form="0" type="int{1BDFC09A-8BD9-42A7-B99C-331805F13525}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="unbounded" />
+							<attribute name="name" namespace="" value="int" />
+							<attribute name="type" namespace="" value="s:int" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{EFE740E3-8FF3-44FA-A68F-063B07474EF7}" complexType="True" anonymous="True" name="GetCurrentTimeSoapOut_GetCurrentTimeResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetCurrentTimeResult" namespace="http://smartbear.com" form="0" type="dateTime{36E25E9C-4852-4DEB-A5CE-F4867ECBC786}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="1" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="GetCurrentTimeResult" />
+							<attribute name="type" namespace="" value="s:dateTime" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{19E4BAA3-70B4-4EFF-998F-BD290871D17D}" complexType="True" anonymous="True" name="GetSampleObjectSoapIn_GetSampleObject" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element name="no" namespace="http://smartbear.com" form="0" type="int{1BDFC09A-8BD9-42A7-B99C-331805F13525}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="1" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="no" />
+							<attribute name="type" namespace="" value="s:int" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{DD46C700-1C51-464D-AE1C-98E8579F593F}" complexType="True" anonymous="True" name="GetSampleObjectSoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetSampleObjectResponse" namespace="http://smartbear.com" form="0" type="GetSampleObjectSoapOut_GetSampleObjectResponse{E7B6965F-89FB-4A78-AE2B-34145DF9E526}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{26F9B2A9-14EE-4A62-B9D4-A842EA1AC5AB}" complexType="True" anonymous="True" name="GetSampleObjectSoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetSampleObject" namespace="http://smartbear.com" form="0" type="GetSampleObjectSoapIn_GetSampleObject{19E4BAA3-70B4-4EFF-998F-BD290871D17D}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{2A764C9F-A2AE-4446-B93D-4ABD0BFD5818}" complexType="True" anonymous="True" name="HelloWorldSoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="HelloWorld" namespace="http://smartbear.com" form="0" type="HelloWorldSoapIn_HelloWorld{A7332BFA-5A08-421D-91A8-914FD1F4DDBB}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{F3F87660-9A05-4679-BA3F-6CF3C23FCEB3}" complexType="True" anonymous="True" name="HelloWorldSoapOut_HelloWorldResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="HelloWorldResult" namespace="http://smartbear.com" form="0" type="string{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="HelloWorldResult" />
+							<attribute name="type" namespace="" value="s:string" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{36E25E9C-4852-4DEB-A5CE-F4867ECBC786}" name="dateTime" targetNamespace="http://www.w3.org/2001/XMLSchema" />
+			<type guid="{8AEF8ADF-5844-4F19-9D14-69F13BCFE0CA}" complexType="True" anonymous="True" name="GetCurrentTimeSoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetCurrentTimeResponse" namespace="http://smartbear.com" form="0" type="GetCurrentTimeSoapOut_GetCurrentTimeResponse{EFE740E3-8FF3-44FA-A68F-063B07474EF7}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{1BDFC09A-8BD9-42A7-B99C-331805F13525}" name="int" targetNamespace="http://www.w3.org/2001/XMLSchema" />
+			<type guid="{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" name="string" targetNamespace="http://www.w3.org/2001/XMLSchema" />
+			<type guid="{1145AFE7-432E-4EF7-A231-D71E6B6E83B8}" complexType="True" anonymous="True" name="GetCurrentTimeSoapIn_GetCurrentTime" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0" />
+			</type>
+			<type guid="{6AB70FF7-E263-4D3D-B176-EC34348BC057}" complexType="True" anonymous="True" name="SetSampleObjectSoapIn" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="SetSampleObject" namespace="http://smartbear.com" form="0" type="SetSampleObjectSoapIn_SetSampleObject{C6CE0C05-1A96-419B-ACC5-946F4923BD55}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{E57F173E-CF84-44C6-ADDF-CDEBA8ABE5AE}" complexType="True" anonymous="True" name="GetXmlDataSoapOut_GetXmlDataResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="GetXmlDataResult" namespace="http://smartbear.com" form="0" type="GetXmlDataResultType{49002F8B-A0E0-4C2D-981B-462CD3032CCA}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="GetXmlDataResult" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{E8C4A882-C38B-4D48-ACD8-90190EBA51DA}" complexType="True" anonymous="True" name="SetSampleObjectSoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="SetSampleObjectResponse" namespace="http://smartbear.com" form="0" type="SetSampleObjectSoapOut_SetSampleObjectResponse{B28B31D4-2002-4042-A588-661B4774E70B}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{CD4F13B2-F68B-498A-8237-4CD12B1574AB}" complexType="True" anonymous="True" name="GetArraySoapIn_GetArray" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0" />
+			</type>
+			<type guid="{A2A138F0-233D-4FE5-AE6F-6FF4E3776449}" complexType="True" anonymous="True" name="GetXmlDataSoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetXmlDataResponse" namespace="http://smartbear.com" form="0" type="GetXmlDataSoapOut_GetXmlDataResponse{E57F173E-CF84-44C6-ADDF-CDEBA8ABE5AE}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{54E6E512-0C17-40CB-8667-3B4FE87A6169}" complexType="True" anonymous="True" name="GetArraySoapOut_GetArrayResponse" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0">
+					<element minOccurs="0" name="GetArrayResult" namespace="http://smartbear.com" form="0" type="ArrayOfInt{A0FED76B-A041-44DD-B351-058DD94AEEF4}" itemType="1">
+						<nonSchemaAttributes>
+							<attribute name="minOccurs" namespace="" value="0" />
+							<attribute name="maxOccurs" namespace="" value="1" />
+							<attribute name="name" namespace="" value="GetArrayResult" />
+							<attribute name="type" namespace="" value="tns:ArrayOfInt" />
+						</nonSchemaAttributes>
+					</element>
+				</rootCompositor>
+			</type>
+			<type guid="{1F2EEFF2-DAEA-43BF-9948-4932E5144A9E}" complexType="True" anonymous="True" name="HelloWorldSoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="HelloWorldResponse" namespace="http://smartbear.com" form="0" type="HelloWorldSoapOut_HelloWorldResponse{F3F87660-9A05-4679-BA3F-6CF3C23FCEB3}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{8D6DD511-7A76-4450-A549-B721EC252970}" complexType="True" anonymous="True" name="GetArraySoapOut" targetNamespace="" visible="False">
+				<rootCompositor itemType="0">
+					<element name="GetArrayResponse" namespace="http://smartbear.com" form="0" type="GetArraySoapOut_GetArrayResponse{54E6E512-0C17-40CB-8667-3B4FE87A6169}" itemType="1" />
+				</rootCompositor>
+			</type>
+			<type guid="{521FA3B6-BE2C-4127-96BA-84FB23C9FC47}" name="double" targetNamespace="http://www.w3.org/2001/XMLSchema" />
+			<type guid="{61A224FF-A18D-4828-A091-498D7D454FA0}" complexType="True" anonymous="True" name="GetXmlDataSoapIn_GetXmlData" targetNamespace="http://smartbear.com" visible="False">
+				<rootCompositor itemType="0" />
+			</type>
+			<type guid="{49002F8B-A0E0-4C2D-981B-462CD3032CCA}" complexType="True" anonymous="True" mixed="True" name="GetXmlDataResultType" targetNamespace="http://smartbear.com">
+				<nonSchemaAttributes>
+					<attribute name="mixed" namespace="" value="true" />
+				</nonSchemaAttributes>
+				<rootCompositor itemType="0">
+					<element namespace="##any" processContents="2" itemType="2" />
+				</rootCompositor>
+			</type>
+		</xmlSchema>
+		<typeInfo name="SampleWebService" documentation="This sample web service is used to demonstrate how to test web services with SmartBear&apos;s TestComplete." active="True" port="SampleWebServiceSoap" biding="SampleWebServiceSoap" soapVersion="0" url="http://secure.smartbearsoftware.com/samples/testcomplete10/webservices/Service.asmx" wsdl="http://downloads.smartbear.com/samples/testcomplete10/webservices/Service.asmx?WSDL">
+			<child name="HelloWorld" documentation="This method returns a string value." soapAction="http://smartbear.com/HelloWorld" bidingStyle="0" hasReturnParameter="True">
+				<inputParts reduced="True">
+					<child name="HelloWorld" namespace="http://smartbear.com" qualified="True" typeMoniker="HelloWorldSoapIn_HelloWorld{A7332BFA-5A08-421D-91A8-914FD1F4DDBB}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="HelloWorldResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="HelloWorldSoapOut_HelloWorldResponse{F3F87660-9A05-4679-BA3F-6CF3C23FCEB3}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="HelloWorldSoapIn{2A764C9F-A2AE-4446-B93D-4ABD0BFD5818}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="HelloWorldSoapOut{1F2EEFF2-DAEA-43BF-9948-4932E5144A9E}" />
+				<returnParameter name="HelloWorldResult" varType="8" typeMoniker="string{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" isIn="False" isOut="True" isArray="False" />
+			</child>
+			<child name="GetArray" documentation="This method returns an array of integer values." soapAction="http://smartbear.com/GetArray" bidingStyle="0" hasReturnParameter="True">
+				<inputParts reduced="True">
+					<child name="GetArray" namespace="http://smartbear.com" qualified="True" typeMoniker="GetArraySoapIn_GetArray{CD4F13B2-F68B-498A-8237-4CD12B1574AB}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="GetArrayResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="GetArraySoapOut_GetArrayResponse{54E6E512-0C17-40CB-8667-3B4FE87A6169}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="GetArraySoapIn{5619F500-2A04-4377-9FFF-6CFD62F44081}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="GetArraySoapOut{8D6DD511-7A76-4450-A549-B721EC252970}" />
+				<returnParameter name="GetArrayResult" varType="29" typeMoniker="ArrayOfInt{A0FED76B-A041-44DD-B351-058DD94AEEF4}" isIn="False" isOut="True" isArray="False" />
+			</child>
+			<child name="GetCurrentTime" documentation="This method returns the current system time." soapAction="http://smartbear.com/GetCurrentTime" bidingStyle="0" hasReturnParameter="True">
+				<inputParts reduced="True">
+					<child name="GetCurrentTime" namespace="http://smartbear.com" qualified="True" typeMoniker="GetCurrentTimeSoapIn_GetCurrentTime{1145AFE7-432E-4EF7-A231-D71E6B6E83B8}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="GetCurrentTimeResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="GetCurrentTimeSoapOut_GetCurrentTimeResponse{EFE740E3-8FF3-44FA-A68F-063B07474EF7}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="GetCurrentTimeSoapIn{E0779FE4-8BB8-4827-B083-E258F870E357}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="GetCurrentTimeSoapOut{8AEF8ADF-5844-4F19-9D14-69F13BCFE0CA}" />
+				<returnParameter name="GetCurrentTimeResult" varType="7" typeMoniker="dateTime{36E25E9C-4852-4DEB-A5CE-F4867ECBC786}" isIn="False" isOut="True" isArray="False" />
+			</child>
+			<child name="GetSampleObject" documentation="This method returns an object." soapAction="http://smartbear.com/GetSampleObject" bidingStyle="0" hasReturnParameter="True">
+				<child name="no" varType="3" typeMoniker="int{1BDFC09A-8BD9-42A7-B99C-331805F13525}" isIn="True" isOut="False" isArray="False" />
+				<inputParts reduced="True">
+					<child name="GetSampleObject" namespace="http://smartbear.com" qualified="True" typeMoniker="GetSampleObjectSoapIn_GetSampleObject{19E4BAA3-70B4-4EFF-998F-BD290871D17D}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="GetSampleObjectResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="GetSampleObjectSoapOut_GetSampleObjectResponse{E7B6965F-89FB-4A78-AE2B-34145DF9E526}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="GetSampleObjectSoapIn{26F9B2A9-14EE-4A62-B9D4-A842EA1AC5AB}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="GetSampleObjectSoapOut{DD46C700-1C51-464D-AE1C-98E8579F593F}" />
+				<returnParameter name="GetSampleObjectResult" varType="29" typeMoniker="SampleTestClass{6AAA2F70-2A6A-439F-A137-EF9554FC39AE}" isIn="False" isOut="True" isArray="False" />
+			</child>
+			<child name="SetSampleObject" documentation="This method uses an object as a parameter." soapAction="http://smartbear.com/SetSampleObject" bidingStyle="0" hasReturnParameter="True">
+				<child name="obj" varType="29" typeMoniker="SampleTestClass{6AAA2F70-2A6A-439F-A137-EF9554FC39AE}" isIn="True" isOut="False" isArray="False" />
+				<inputParts reduced="True">
+					<child name="SetSampleObject" namespace="http://smartbear.com" qualified="True" typeMoniker="SetSampleObjectSoapIn_SetSampleObject{C6CE0C05-1A96-419B-ACC5-946F4923BD55}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="SetSampleObjectResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="SetSampleObjectSoapOut_SetSampleObjectResponse{B28B31D4-2002-4042-A588-661B4774E70B}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="SetSampleObjectSoapIn{6AB70FF7-E263-4D3D-B176-EC34348BC057}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="SetSampleObjectSoapOut{E8C4A882-C38B-4D48-ACD8-90190EBA51DA}" />
+				<returnParameter name="SetSampleObjectResult" varType="8" typeMoniker="string{90EC7135-000A-4C40-8E35-40F4AEDC17AA}" isIn="False" isOut="True" isArray="False" />
+			</child>
+			<child name="GetXmlData" documentation="This method returns an object that is an XML node." soapAction="http://smartbear.com/GetXmlData" bidingStyle="0" hasReturnParameter="True">
+				<inputParts reduced="True">
+					<child name="GetXmlData" namespace="http://smartbear.com" qualified="True" typeMoniker="GetXmlDataSoapIn_GetXmlData{61A224FF-A18D-4828-A091-498D7D454FA0}" />
+				</inputParts>
+				<outputParts reduced="True">
+					<child name="GetXmlDataResponse" namespace="http://smartbear.com" qualified="True" typeMoniker="GetXmlDataSoapOut_GetXmlDataResponse{E57F173E-CF84-44C6-ADDF-CDEBA8ABE5AE}" />
+				</outputParts>
+				<input name="" use="literal" encodingStyle="" namespace="" bodyType="GetXmlDataSoapIn{BC6FB392-5823-4B47-9BB1-8AAE79ECB015}" />
+				<output name="" use="literal" encodingStyle="" namespace="" bodyType="GetXmlDataSoapOut{A2A138F0-233D-4FE5-AE6F-6FF4E3776449}" />
+				<returnParameter name="GetXmlDataResult" varType="29" typeMoniker="GetXmlDataResultType{49002F8B-A0E0-4C2D-981B-462CD3032CCA}" isIn="False" isOut="True" isArray="False" />
+			</child>
+		</typeInfo>
+	</data>
+</Root>
